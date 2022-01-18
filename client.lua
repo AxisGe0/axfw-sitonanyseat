@@ -1,5 +1,5 @@
 Settings = {
-    KeepEngineOn = true ---Keeps The engine on after leaving the vehicle if the engine is on,
+    KeepEngineOn = true, ---Keeps The engine on after leaving the vehicle if the engine is on,
     NPCCheck = true --- Adds NPC Check to the code(Checks if there is any ped inside vehicle or not)
 }
 
