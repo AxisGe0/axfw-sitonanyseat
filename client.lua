@@ -6,7 +6,7 @@ Settings = {
 CreateThread(function()
     local dist, index
     while true do
-        local ped = GetPlayerPed(-1)
+        local ped = PlayerPedId()
         if IsControlJustPressed(0, 75) then
             if IsPedInAnyVehicle(ped) then
                 if Settings.KeepEngineOn then
